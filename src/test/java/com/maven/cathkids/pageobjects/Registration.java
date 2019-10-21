@@ -54,7 +54,7 @@ public class Registration extends DriverFactory {
     public void confirmPwd(String pwd){
         confirmPassword.sendKeys(pwd);
     }
-    @FindBy(xpath = "//*[@id='register_form_fields']/div[9]/label")
+    @FindBy(xpath = "//label[contains(text(),'Join our email club and be the first to know about')]")
     private WebElement checkbox;
     public void setCheckbox() throws InterruptedException {
         Thread.sleep(3000);
