@@ -5,6 +5,6 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources",dryRun = false,strict = true,tags = "@register")
+@CucumberOptions(features = "src/test/resources",dryRun = false,strict = true,tags = "@register",plugin = {"json:target/srilatha.json"})
 public class RunCukes {
 }
