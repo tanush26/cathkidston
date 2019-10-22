@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources",dryRun = false,strict = true,tags = "@register",
-        plugin = {"json:target/cucumber.json"})
-                //"target/cucumber-html-reports/overview-features.html"})
+        plugin = {"json:target/cucumber.json","html:target/cucumber-html-report",
+                "junit:target/cucumber-report.xml"})
 
 
 public class RunCukes {
