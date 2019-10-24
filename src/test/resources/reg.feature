@@ -7,8 +7,8 @@ Feature: registration
   Scenario:
     Given I am on Homepage
     When I click "SELECT/REGISTER"
-    Then I should be able to see registration page
-    And I enter email as "dlxxxx@gmail.com"
+    Then I should be able to see login/registration page
+    And I enter email as "dlatha1@gmail.com"
     And I click the radio button "No I am a new customer"
     And I select title "Mrs"
     And I enter firstName as "Narala"

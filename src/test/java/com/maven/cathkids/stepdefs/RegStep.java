@@ -17,8 +17,8 @@ public class RegStep {
        register.newRegistration();
     }
 
-    @Then("^I should be able to see registration page$")
-    public void iShouldBeAbleToSeeRegistrationPage() {
+    @Then("^I should be able to see login/registration page$")
+    public void iShouldBeAbleToSeeLoginRegistrationPage() {
     }
 
     @And("^I enter email as \"([^\"]*)\"$")
